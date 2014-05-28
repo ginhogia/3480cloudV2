@@ -1,0 +1,50 @@
+body {
+padding-top: 60px;
+padding-bottom: 40px;
+}
+.sidebar-nav {
+padding: 9px 0;
+}
+
+@media (max-width: 980px) {
+/* Enable use of floated navbar text */
+.navbar-text.pull-right {
+  float: none;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+}
+
+#page_content
+{
+  min-height: 400px;
+}
+
+#user_info img
+{
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+#user_info .view-as
+{
+  color: #ffffff;
+}
+.template
+{
+  display: none;
+}
+
+#page_info [data-ref='editor'] [data-ref='owner'] p
+{
+  border-bottom: 1px solid #dddddd;
+}
+#page_info [data-ref='editor'] [data-ref='owner'] input
+{
+  margin-bottom: 20px;
+}
+
+.height-min-120
+{
+  min-height: 120px;
+}
